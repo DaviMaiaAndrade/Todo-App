@@ -1,5 +1,5 @@
 import React from 'react'
-import Menu from '../template/Menu'
+import Menu from '../template/menu'
 import Routes from './Routes'
 import '../template/custom.css'
 

@@ -3,12 +3,12 @@ import PageHeader from "../template/pageHeader";
 
 export default props => (
     <div>
-        <PageHeader name='Sobre' small='Nós'/>
-        <h2>Nossa história</h2>
-        <p>Lorem impsum dolor sit amet...</p>
-        <h2>Nossa Missão</h2>
-        <p>Lorem impsum dolor sit amet...</p>
+        <PageHeader name="Sobre"/>
+        <h2>Nossa História</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <h2>Missão e Valores</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         <h2>Imprensa</h2>
-        <p>Lorem impsum dolor sit amet...</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
     </div>
 )

@@ -1,19 +1,19 @@
 import React from "react";
+import './menuStyle.css';
 
 export default props => (
-    <nav className="navbar navbar-inverse bg-inverse">
-        <div className="container">
-            <div className="navbar-header">
-                <a className="navbar-brand" href="#/todos">
-                    <i className="fa fa-calendar-check-o"></i> TodoApp
+    <nav className="navbarTodo">
+        <div className="containerMenu">
+            <div className="navbarIcn">
+                <a className="icnTodo" href="#/todos">
+                    <i className="fa fa-calendar-check-o calendarIcon"></i>
+                    <div className="descriptionTodo">TodoApps</div> 
                 </a>
             </div>
 
-            <div id="navbar" className="navbar-collapse collapse">
-                <ul className="nav navbar-nav">
-                    <li><a href="#/todos">Tarefas</a></li>
-                    <li><a href="#/about">Sobre</a></li>
-                </ul>
+            <div id="navbar" className="navbarOptions">
+                <li><a href="#/todos">Tarefas</a></li>                
+                <li><a href="#/about">Sobre</a></li>
             </div>
         </div>
     </nav>

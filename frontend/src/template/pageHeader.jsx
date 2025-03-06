@@ -1,7 +1,13 @@
 import React from "react";
+import './pageHeaderStyle.css';
 
 export default props => (
-    <header className="page-header">
-        <h2>{props.name} <small>{props.small}</small></h2>
-    </header>
+    <div>
+        <header className="title">
+            <h2>{props.name}</h2>            
+        </header>
+        <div  className="subtitle">
+            <small>{props.small}</small>
+        </div>        
+    </div> 
 )
